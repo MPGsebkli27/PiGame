@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pi Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Type π as fast as possible!</h1>
+        <div class="info">
+            <div class="info-item">
+                <p>Time</p>
+                <span id="time">0.000</span>
+            </div>
+            <div class="info-item">
+                <p>Speed (Chr/s)</p>
+                <span id="speed">0</span>
+            </div>
+            <div class="info-item">
+                <p>Fastest Time</p>
+                <span id="bestScore">-</span>
+            </div>
+        </div>
+        <input autofocus autocomplete="off" type="text" inputmode="numeric" id="piInput"
+            placeholder="Type the first 5 decimals as fast as possible!">
+        <p id="status">Start with 314159...</p>
+        <div class="buttons">
+            <button id="deleteCookiesBtn">Delete All Cookies</button>
+            <button id="restartBtn">Restart</button>
+            <button id="toggleDecimalsBtn">5 Decimals</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
