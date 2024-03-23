@@ -20,7 +20,7 @@ Welcome to the Pi Game website! This simple yet engaging web application challen
 
 ## Getting Started
 
-To get started, simply open the `index.html` file in your web browser. You can also host the files on a web server to share the game with others. No additional setup is required.
+To get started, click [here](https://mpgsebkli27.github.io/pigame.githib.io/) to open the game in your web browser. No additional setup is required.
 
 ## Technologies Used
 
